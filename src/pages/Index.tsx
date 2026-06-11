@@ -239,6 +239,23 @@ const players: PlayerRow[] = [
   { rank: 72, name: "алеха1234567", role: "R2", power: "—", kills: "—", status: "Активен" },
   { rank: 73, name: "EVErmak", role: "R2", power: "—", kills: "—", status: "Активен" },
   { rank: 74, name: "Миха24", role: "R2", power: "—", kills: "—", status: "Активен" },
+  { rank: 75, name: "Benani", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 76, name: "Prinsessa", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 77, name: "Mamon1", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 78, name: "Твити", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 79, name: "VanDamManDra", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 80, name: "MAIKL23", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 81, name: "inisajayah", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 82, name: "Mommy167", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 83, name: "killer63", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 84, name: "max2312", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 85, name: "Kantemir46", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 86, name: "Firsia", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 87, name: "V08", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 88, name: "vanessaatalanta", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 89, name: "NongS", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 90, name: "Hoha1982", role: "R1", power: "—", kills: "—", status: "Активен" },
+  { rank: 91, name: "Di00", role: "R1", power: "—", kills: "—", status: "Активен" },
 ]
 
 const forumThreads: ForumThread[] = [
