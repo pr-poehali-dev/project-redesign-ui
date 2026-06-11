@@ -232,6 +232,13 @@ const players: PlayerRow[] = [
   { rank: 65, name: "inpw", role: "R3", power: "—", kills: "—", status: "Активен" },
   { rank: 66, name: "Makintooooosh", role: "R3", power: "—", kills: "—", status: "Активен" },
   { rank: 67, name: "–Злой–", role: "R3", power: "—", kills: "—", status: "Активен" },
+  { rank: 68, name: "Zubrik666", role: "R2", power: "—", kills: "—", status: "Активен" },
+  { rank: 69, name: "Voron", role: "R2", power: "—", kills: "—", status: "Активен" },
+  { rank: 70, name: "Veneno111", role: "R2", power: "—", kills: "—", status: "Активен" },
+  { rank: 71, name: "K-Ant", role: "R2", power: "—", kills: "—", status: "Активен" },
+  { rank: 72, name: "алеха1234567", role: "R2", power: "—", kills: "—", status: "Активен" },
+  { rank: 73, name: "EVErmak", role: "R2", power: "—", kills: "—", status: "Активен" },
+  { rank: 74, name: "Миха24", role: "R2", power: "—", kills: "—", status: "Активен" },
 ]
 
 const forumThreads: ForumThread[] = [
