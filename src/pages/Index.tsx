@@ -140,14 +140,14 @@ const gameInfoCards: InfoCardProps[] = [
 const newsItems: NewsItem[] = [
   {
     date: "10 июн 2026",
-    title: "ASYLUM захватил Крепость Забвения",
+    title: "JUST VIBE99 захватил Крепость Забвения",
     text: "После 6-часового рейда наш альянс удержал Крепость Забвения. Спасибо всем участникам битвы! Особая благодарность войскам R4 за координацию.",
     tag: "Событие",
   },
   {
     date: "7 июн 2026",
     title: "Набор новых участников открыт",
-    text: "Альянс ASYLUM объявляет набор игроков с силой от 5 млн. Требования: активность в KvK, Discord обязателен. Подавайте заявку в игре.",
+    text: "Альянс JUST VIBE99 объявляет набор игроков с силой от 5 млн. Требования: активность в KvK, Discord обязателен. Подавайте заявку в игре.",
     tag: "Объявление",
   },
   {
@@ -177,10 +177,10 @@ const players: PlayerRow[] = [
 
 const forumThreads: ForumThread[] = [
   { title: "Гайд по расстановке войск в KvK — актуально для Season 13", author: "IronVeil", replies: 34, category: "Тактика", time: "2 ч назад" },
-  { title: "Набор в ASYLUM — требования и правила", author: "VoidReaper", replies: 67, category: "Набор", time: "5 ч назад" },
+  { title: "Набор в JUST VIBE99 — требования и правила", author: "VoidReaper", replies: 67, category: "Набор", time: "5 ч назад" },
   { title: "Как правильно распределять ресурсы на старте?", author: "NewbieAsh", replies: 21, category: "Вопросы", time: "8 ч назад" },
   { title: "Лучшие командиры для обороны базы в 2026", author: "ShadowCrypt", replies: 45, category: "Тактика", time: "1 д назад" },
-  { title: "Общий чат — добро пожаловать в ASYLUM!", author: "GlitchHunter", replies: 128, category: "Общение", time: "2 д назад" },
+  { title: "Общий чат — добро пожаловать в JUST VIBE99!", author: "GlitchHunter", replies: 128, category: "Общение", time: "2 д назад" },
   { title: "Разбор ошибок KvK Season 12 — что улучшить", author: "VoidReaper", replies: 52, category: "Тактика", time: "3 д назад" },
 ]
 
@@ -248,7 +248,7 @@ function NavBar() {
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
             <Icon name="Shield" size={18} className="text-white" />
           </div>
-          <span className="font-bold text-lg tracking-wide text-foreground">ASYLUM</span>
+          <span className="font-bold text-lg tracking-wide text-foreground">JUST VIBE99</span>
         </div>
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-1">
@@ -338,9 +338,9 @@ export default function Index() {
             Альянс Last Asylum
           </div>
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-none">
-            <span className="text-foreground">LAST</span>
+            <span className="text-foreground">JUST</span>
             <br />
-            <span className="text-primary">ASYLUM</span>
+            <span className="text-primary">VIBE99</span>
           </h1>
           <p className="text-xl text-foreground/60 mb-8 max-w-2xl mx-auto leading-relaxed">
             Постапокалиптическая стратегия. Мир рухнул — мы выжили. Присоединяйся к сильнейшему альянсу сервера.
@@ -395,7 +395,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-primary/20 text-primary border-primary/40 px-4 py-1">Новости альянса</Badge>
-            <h2 className="text-3xl md:text-4xl font-black mb-4">Что происходит в ASYLUM</h2>
+            <h2 className="text-3xl md:text-4xl font-black mb-4">Что происходит в JUST VIBE99</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             {newsItems.map((item, i) => (
@@ -421,7 +421,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-primary/20 text-primary border-primary/40 px-4 py-1">Таблица лидеров</Badge>
-            <h2 className="text-3xl md:text-4xl font-black mb-4">Рейтинг игроков ASYLUM</h2>
+            <h2 className="text-3xl md:text-4xl font-black mb-4">Рейтинг игроков JUST VIBE99</h2>
             <p className="text-foreground/60">Топ по силе и количеству уничтоженных войск</p>
           </div>
           <Card className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm overflow-hidden">
@@ -533,7 +533,7 @@ export default function Index() {
                 <Icon name="Shield" size={32} className="text-primary" />
               </div>
               <Badge className="mb-4 bg-primary/20 text-primary border-primary/40 px-4 py-1">Открытый набор</Badge>
-              <h2 className="text-3xl md:text-4xl font-black mb-4">Готов воевать за ASYLUM?</h2>
+              <h2 className="text-3xl md:text-4xl font-black mb-4">Готов воевать за JUST VIBE99?</h2>
               <p className="text-foreground/60 mb-8 leading-relaxed">
                 Мы принимаем активных игроков с силой от 5 млн. Обязателен Discord, участие в KvK и взаимопомощь.
               </p>
@@ -571,7 +571,7 @@ export default function Index() {
             <div className="w-7 h-7 rounded-lg bg-primary flex items-center justify-center">
               <Icon name="Shield" size={16} className="text-white" />
             </div>
-            <span className="font-bold text-foreground">ASYLUM</span>
+            <span className="font-bold text-foreground">JUST VIBE99</span>
             <span className="text-foreground/30">·</span>
             <span className="text-sm text-foreground/40">Last Asylum Alliance</span>
           </div>
