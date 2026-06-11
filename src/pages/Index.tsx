@@ -400,8 +400,15 @@ export default function Index() {
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-14">
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/20 via-background to-background" />
         <div className="absolute inset-0">
+          <img
+            src="https://cdn.poehali.dev/projects/1841eb20-9393-40d4-9605-0782f0e4f5a1/bucket/4f5fe1d5-c7e2-410d-bdc3-36ac25813cd8.jpg"
+            alt="bg"
+            className="w-full h-full object-cover object-center opacity-30"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background" />
+        <div className="absolute inset-0 pointer-events-none">
           {[...Array(50)].map((_, i) => (
             <div
               key={i}
