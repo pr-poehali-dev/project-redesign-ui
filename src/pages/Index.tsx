@@ -624,9 +624,9 @@ export default function Index() {
               </p>
               <div className="grid sm:grid-cols-3 gap-4 mb-8">
                 {[
-                  { icon: "Zap", label: "Сила от 5 млн" },
+                  { icon: "Zap", label: "Сила от 15 млн" },
                   { icon: "Clock", label: "Активность ежедневно" },
-                  { icon: "Users", label: "Discord обязателен" },
+                  { icon: "Users", label: "Lolka обязателен" },
                 ].map((req) => (
                   <div key={req.label} className="flex flex-col items-center gap-2 p-4 rounded-xl bg-white/5 border border-white/10">
                     <Icon name={req.icon} size={20} className="text-primary" />
