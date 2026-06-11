@@ -554,7 +554,7 @@ export default function Index() {
                   <Icon name="Shield" size={18} className="mr-2" />
                   Подать заявку в игре
                 </Button>
-                <Button size="lg" variant="outline" className="border-white/20 hover:bg-white/10" onClick={() => window.open("https://lolka.app/?ysclid=mq8uc34ygm85697361", "_blank")}>
+                <Button size="lg" variant="outline" className="border-white/20 hover:bg-white/10" onClick={() => window.open("https://lolka.me/_demon_hell", "_blank")}>
                   <Icon name="MessageSquare" size={18} className="mr-2" />
                   Lolka сервер
                 </Button>
