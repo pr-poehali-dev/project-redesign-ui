@@ -620,7 +620,7 @@ export default function Index() {
               <Badge className="mb-4 bg-primary/20 text-primary border-primary/40 px-4 py-1">Открытый набор</Badge>
               <h2 className="text-3xl md:text-4xl font-black mb-4">Готов воевать за JUST VIBE99?</h2>
               <p className="text-foreground/60 mb-8 leading-relaxed">
-                Мы принимаем активных игроков с силой от 5 млн. Обязателен Discord, участие в KvK и взаимопомощь.
+                Мы принимаем активных игроков с силой от 15 млн. Обязателен Lolka, участие в KvK и взаимопомощь.
               </p>
               <div className="grid sm:grid-cols-3 gap-4 mb-8">
                 {[
