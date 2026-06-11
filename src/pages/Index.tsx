@@ -261,7 +261,7 @@ const players: PlayerRow[] = [
 ]
 
 const forumThreads: ForumThread[] = [
-  { title: "Гайд по расстановке войск в KvK — актуально для Season 13", author: "IronVeil", replies: 34, category: "Тактика", time: "2 ч назад" },
+  { title: "Гайд по расстановке войск в KvK — актуально для Season 2", author: "IronVeil", replies: 34, category: "Тактика", time: "2 ч назад" },
   { title: "Набор в JUST VIBE99 — требования и правила", author: "VoidReaper", replies: 67, category: "Набор", time: "5 ч назад" },
   { title: "Как правильно распределять ресурсы на старте?", author: "NewbieAsh", replies: 21, category: "Вопросы", time: "8 ч назад" },
   { title: "Лучшие командиры для обороны базы в 2026", author: "ShadowCrypt", replies: 45, category: "Тактика", time: "1 д назад" },
