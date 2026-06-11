@@ -427,7 +427,7 @@ export default function Index() {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 border border-primary/40 text-primary text-sm font-medium mb-6">
             <Icon name="Shield" size={16} />
-            Альянс Last Asylum
+            Альянс JV99 Last Asylum
           </div>
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-none">
             <span className="text-foreground">JUST</span>
@@ -665,7 +665,7 @@ export default function Index() {
             </div>
             <span className="font-bold text-foreground">JUST VIBE99</span>
             <span className="text-foreground/30">·</span>
-            <span className="text-sm text-foreground/40">Last Asylum Alliance</span>
+            <span className="text-sm text-foreground/40">JV99 Last Asylum</span>
           </div>
           <p className="text-sm text-foreground/30">Сайт фанатского альянса. Не является официальным ресурсом игры.</p>
         </div>
