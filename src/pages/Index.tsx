@@ -443,9 +443,9 @@ export default function Index() {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg mx-auto">
             {[
-              { label: "Игроков", value: "124" },
+              { label: "Игроков", value: "93" },
               { label: "Место в топе", value: "#3" },
-              { label: "Сезонов KvK", value: "12" },
+              { label: "Сезонов KvK", value: "1" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-3xl font-black text-primary">{stat.value}</div>
